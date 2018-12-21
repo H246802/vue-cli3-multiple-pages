@@ -18,13 +18,10 @@ npm run build
 
 ### 如何完成自动编译输出多页面
 
+> 主要依靠于循环递归遍历获取js文件目录，之后再输出相同的html目录格式 
 
-> 主要依靠于循环递归遍历获取js文件目录，之后再输出相同的html目录格式
-> 
 
 **核心代码(vue.config.js)**
-
-
 
 ```js
 function readJSFile(jsPathRoot) {
@@ -58,3 +55,6 @@ function readJSFile(jsPathRoot) {
 }
 
 ```
+
+> 附录: 因为目录结构过多，且没有做主页面，npm run serve 后打开
+> `localhost:8080/customer/activity/activity_detail/activity_detail.html` 可查看效果

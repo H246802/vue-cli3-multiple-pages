@@ -1,5 +1,7 @@
 <template>
-
+<div class="activity-d">
+  活动详情页面
+</div>
 </template>
 
 <script>
@@ -8,6 +10,6 @@
   }
 </script>
 
-<style scoped>
+<style>
 
 </style>

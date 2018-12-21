@@ -66,11 +66,5 @@ function readJSFile(jsPathRoot) {
 
 module.exports = {
   baseUrl: process.env.NODE_ENV === 'production' ? '/dist' : '/',
-  pages,
-  configureWebpack: config => {
-    require('vux-loader').merge(config, {
-      options: {},
-      plugins: ['vux-ui']
-    })
-  }
+  pages
 }
