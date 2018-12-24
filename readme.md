@@ -57,4 +57,5 @@ function readJSFile(jsPathRoot) {
 ```
 
 > 附录: 因为目录结构过多，且没有做主页面，npm run serve 后打开
-> `localhost:8080/customer/activity/activity_detail/activity_detail.html` 可查看效果
+> `localhost:8080/customer/activity/activity_detail/activity_detail.html`
+> 可查看效果
